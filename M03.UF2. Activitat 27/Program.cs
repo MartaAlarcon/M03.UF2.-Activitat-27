@@ -10,7 +10,7 @@ namespace Activitats
             Console.WriteLine("Escriu un nombre: ");
             num = Convert.ToInt32 (Console.ReadLine());
             int i = num;
-            Console.WriteLine(DeterminarPrimRec(num, count, i));
+            Console.WriteLine(DeterminarPrimRec(num, count, i)); //cambiar funcion iterativa/recursiva
         }
         public static bool DeterminarPrimIt (int num)
         {
